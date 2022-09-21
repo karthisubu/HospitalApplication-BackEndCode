@@ -56,7 +56,7 @@ public class DoctorController {
 			oldDoc.setDoctorAge(doctor.getDoctorAge());
 			oldDoc.setDoctorGender(doctor.getDoctorGender());
 			oldDoc.setId(doctor.getId());
-			oldDoc.setNoOfPatientAddened(doctor.getId());
+			oldDoc.setNoOfPatientAddened(doctor.getNoOfPatientAddened());
 			doctor = docService.updateDoctor(oldDoc);
 			return new ResponseEntity<Doctor>(doctor, HttpStatus.OK);
 		} catch (Exception e) 

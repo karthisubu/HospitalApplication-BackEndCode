@@ -23,5 +23,5 @@ public class Patient {
 	private String patientVisitDoctor;		
 	private String patientDateOfVist;
 	private int patientAge;	
-	
+	private int num;
 }
