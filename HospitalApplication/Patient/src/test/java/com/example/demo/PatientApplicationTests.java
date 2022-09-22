@@ -13,7 +13,7 @@ import com.example.demo.service.PatientService;
 @SpringBootTest(classes= {PatientApplicationTests.class})
 class PatientApplicationTests {
 
-@Mock
+	@Mock
 	private PatientService patientService;
 	
 	@InjectMocks
